@@ -10,6 +10,8 @@ All Minecraft work must follow [`docs/MINECRAFT-OS.md`](docs/MINECRAFT-OS.md).
 
 The approved creative vision, scope boundaries, world structure, and delivery gates for **EAW 2.0 — The World Engine** are maintained in [`docs/EAW-2-NORTH-STAR.md`](docs/EAW-2-NORTH-STAR.md).
 
+Terrain requirements, candidate scoring, rejection rules, and the read-only seed survey process are maintained in [`docs/EAW-2-WORLD-SELECTION.md`](docs/EAW-2-WORLD-SELECTION.md).
+
 ## Intended workflow
 
 1. Define a build in `src/builds`.
