@@ -1,7 +1,7 @@
 # EAW 2.0 Seed Candidate Shortlist
 
 **Installed Bedrock build:** 1.26.42  
-**Status:** Research shortlist; no candidate has passed in-game survey  
+**Status:** In-game survey complete; Candidate D recommended
 **Selection rules:** [`EAW-2-WORLD-SELECTION.md`](EAW-2-WORLD-SELECTION.md)
 
 ## Evidence boundary
@@ -55,7 +55,11 @@ These remain useful if the first four fail:
 - `1763933243635884011` near `1134, 1428` — reported 350-block ocean inside a thick maximum-height mountain range.
 - `1485104175` — reported donut-shaped mountain range in 1.26; coordinates still required.
 
-## Survey status
+## Survey result
+
+The comparative scorecard and recommendation are recorded in [`EAW-2-SEED-SURVEY-RESULTS.md`](EAW-2-SEED-SURVEY-RESULTS.md). Preserve all disposable survey worlds until the clean master baseline is verified.
+
+## Original survey status
 
 | Candidate | World created | Terrain matches | Hard rejection | Score | Status |
 |---|---|---|---|---:|---|

@@ -1,7 +1,7 @@
 # EAW 2.0 World-Selection Brief
 
 **Milestone:** Phase 0 — Foundation  
-**Status:** Proposed for Creative Director approval  
+**Status:** Survey complete; Candidate D recommended for Creative Director approval
 **Depends on:** [`EAW-2-NORTH-STAR.md`](EAW-2-NORTH-STAR.md)  
 **Governing process:** [`MINECRAFT-OS.md`](MINECRAFT-OS.md)
 
