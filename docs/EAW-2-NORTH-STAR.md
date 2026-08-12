@@ -4,7 +4,7 @@
 **Working title:** The World Engine  
 **Creative Director:** Robby Eickhoff  
 **Lead Engineer and Builder:** ChatGPT  
-**Status:** Vision approved; world selection and implementation not yet approved  
+**Status:** Vision, master seed, clean master world, and baseline checkpoint approved; implementation not yet approved
 **Governing process:** [`MINECRAFT-OS.md`](MINECRAFT-OS.md)
 
 ## 1. The promise
@@ -223,11 +223,12 @@ To prevent overpromising and underdelivering:
 - Use **The World Engine** as the governing concept.
 - Make Erik, Luka, and Heidi central to the world’s story and gameplay identity.
 - Continue disposable-world testing for code-generated builds.
+- Master seed `69427194527559476` (Candidate D — Jungle Valley).
+- Clean master world `EAW 2.0 — The World Engine`.
+- Verified closed-world baseline checkpoint created before construction.
 
 ### Not yet approved
 
-- World seed
-- Master-world creation
 - Final district coordinates
 - Final dimensions of the Crown, crater, or city
 - Any construction in the new master world
@@ -235,7 +236,7 @@ To prevent overpromising and underdelivering:
 
 ## 14. Immediate next milestone
 
-Create and approve an **EAW 2.0 world-selection brief** defining the terrain requirements, search method, candidate comparison, district-space requirements, and opening-reveal needs. Only after Robby approves a candidate world do we create the baseline checkpoint and master coordinate plan.
+Perform the read-only coordinate survey defined in [`EAW-2-MASTER-LAYOUT.md`](EAW-2-MASTER-LAYOUT.md), then approve exact district envelopes, protected terrain, transportation corridors, and the Phase 1 prototype plan. No construction begins during this survey.
 
 ## North-star test
 
