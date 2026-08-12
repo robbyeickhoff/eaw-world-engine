@@ -1,0 +1,35 @@
+EAW BEDROCK CODE WORKFLOW — PROOF OF CONCEPT
+
+What this proves
+One short Minecraft command can run a complete, reusable construction program.
+The included build creates a large freight gateway with two towers, a skybridge,
+loading bays, lighting, access roads, landing pads, and a beacon.
+
+Important
+Use a disposable FLAT test world. Do not test this in EAW.
+
+Import
+1. Double-click EAW_Build_Tools.mcpack.
+2. Minecraft should open and report that the pack imported successfully.
+3. Create a new Flat world with Activate Cheats and Show Coordinates enabled.
+4. In the world's Behavior Packs, activate "EAW Build Tools."
+
+Test
+1. Stand still on flat ground with at least 50 clear blocks southeast of you.
+2. Open chat and enter:
+   /function eaw/build_gateway
+3. Walk around and inspect the result.
+
+Undo
+Return to the SAME block where you stood when building, then enter:
+   /function eaw/remove_gateway
+
+Ongoing workflow
+- Robby describes the desired district or landmark in ordinary language.
+- ChatGPT updates the source functions and produces a new .mcpack.
+- New work is tested in a disposable world first.
+- Only visually approved builds are introduced into EAW.
+- Every major build receives its own build and removal functions.
+
+Source files are included in the source folder so this remains a maintainable
+code project instead of a pile of one-off chat commands.

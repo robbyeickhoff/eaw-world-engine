@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "rootDir": "gameplay-src",
+    "outDir": "dist/gameplay_pack/scripts",
+    "sourceMap": true,
+    "declaration": false
+  },
+  "include": ["gameplay-src/**/*.ts"]
+}

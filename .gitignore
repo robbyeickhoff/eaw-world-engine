@@ -1,0 +1,31 @@
+node_modules/
+.pnpm-store/
+dist/
+.runtime/
+.tools/
+
+# Minecraft worlds, checkpoints, and generated review media never belong in Git.
+backups/
+tunnel-review-frames/
+tunnel-review-contact-sheet.jpg
+*.mcworld
+*.mcproject
+*.mctemplate
+*.mcstructure
+level.dat*
+db/
+
+# Generated packages and local downloads.
+*.msi
+*.zip
+*.mcpack
+*.log
+
+# Machine and editor state.
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.tmp
+*.bak

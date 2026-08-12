@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "EAW Build Tools",
+    "description": "Reusable code-generated builds for Eickhoff Adventure World",
+    "uuid": "86df64ba-b0da-4ec4-98a9-a1e320975d42",
+    "version": [1, 0, 1],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "2f25a24c-3015-4f8b-afdf-312026e375d6",
+      "version": [1, 0, 1]
+    }
+  ]
+}

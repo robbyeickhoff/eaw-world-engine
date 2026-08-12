@@ -1,0 +1,21 @@
+{
+  "name": "eaw-local-builder",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Code-driven construction tools for Eickhoff Adventure World",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "tsc --noEmit && node scripts/validate.mjs",
+    "deploy": "node scripts/deploy.mjs",
+    "backup:world": "node scripts/backup-world.mjs",
+    "build:gameplay": "node scripts/build-gameplay.mjs",
+    "deploy:gameplay": "node scripts/deploy-gameplay.mjs",
+    "verify": "npm run check && npm run build"
+  },
+  "devDependencies": {
+    "@minecraft/server": "2.9.0-beta.1.26.34-stable",
+    "@minecraft/server-editor": "0.1.0-beta.1.26.34-stable",
+    "typescript": "^5.9.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "EAW Gameplay Systems",
+    "description": "Interactive gameplay systems for Eickhoff Adventure World",
+    "uuid": "f5a7f610-b9f3-4fdb-a59d-923d1113e5f7",
+    "version": [0, 1, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [{
+    "type": "script",
+    "language": "javascript",
+    "uuid": "2d8f53d3-e831-4e7b-a807-a594d8a88a62",
+    "version": [0, 1, 0],
+    "entry": "scripts/main.js"
+  }],
+  "dependencies": [{
+    "module_name": "@minecraft/server",
+    "version": "2.9.0"
+  }]
+}

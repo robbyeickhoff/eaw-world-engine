@@ -1,0 +1,6 @@
+{
+  "projectName": "Eickhoff Adventure World",
+  "extensionName": "EAW Builder",
+  "maximumBlocksPerBuild": 200000,
+  "requireExplicitOrigin": true
+}

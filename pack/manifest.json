@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "EAW Builder Extension",
+    "description": "Code-driven construction tools for Eickhoff Adventure World",
+    "uuid": "438ab08a-52dc-482f-b8b4-f31f4642d6d2",
+    "version": [0, 1, 0],
+    "min_engine_version": [1, 26, 30]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "db81bb5e-b075-442a-b0db-4957608ea766",
+      "version": [0, 1, 0],
+      "entry": "scripts/index.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.10.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-editor",
+      "version": "0.1.0-beta"
+    }
+  ],
+  "capabilities": ["editorExtension"]
+}
